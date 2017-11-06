@@ -1,4 +1,4 @@
-fetch('http://api.nytimes.com/svc/search/v2/articlesearch.json?q=harrypotter&sort=newest&api-key=606e61abf0b846909e1db653220e47be')
+fetch('https://api.nytimes.com/svc/search/v2/articlesearch.json?q=harrypotter&sort=newest&api-key=606e61abf0b846909e1db653220e47be')
 .then((res)=>{
   return res.json()
   .then ((newsData)=>{
