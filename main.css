@@ -1,0 +1,617 @@
+/* for iPhone 5 screen*/
+@media only screen and (max-width: 320px) {
+  html {
+    background-image: url("https://i.pinimg.com/736x/11/9c/71/119c71210bd0f2ed7326bbc732cdd49d--phone-wallpapers-harry-potter-iphone-wallpaper-wallpapers.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+  body, #static {
+    height: 50%;
+  }
+
+  header {
+    background-color: rgba(212, 175, 55, 0.7);
+    margin-top: 5%;
+    width: 98.75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    font-family: 'Bad Script', cursive;
+  }
+
+  header h1 {
+    margin-bottom: -30px;
+    font-size: 30px;
+  }
+
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: inherit;
+    margin-top: 8em;
+
+
+  }
+
+  .navBar button {
+    background-image: url("http://images5.fanpop.com/image/photos/30600000/hogwarts-envelope-hogwarts-30636574-300-218.jpg");
+    background-size: 120px 70px;
+    font-size: 50px;
+    font-weight: 700;
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family: 'Jim Nightshade', cursive;
+
+  }
+
+  #gryf {
+    height: 50px;
+    width: 75px;
+    margin: 10px;
+    background-color: rgb(125, 9, 9);
+    color: rgb(254, 196, 0);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(254,196,0);
+
+  }
+
+  #huff {
+    height: 50px;
+    width: 75px;
+    margin: 10px;
+    background-color: rgb(237, 224, 22);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(0,0,0);
+
+  }
+
+  #rave {
+    height: 50px;
+    width: 75px;
+    margin: 10px;
+    background-color: rgb(1, 9, 144);
+    color: rgb(148, 107, 45);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(148,107,45);
+  }
+
+  #slit {
+    height: 50px;
+    width: 75px;
+    margin: 10px;
+    background-color: rgb(13, 97, 22);
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(170,170,170);
+  }
+
+  #serial {
+    padding-right: 18px;
+    margin-left: -10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: rgb(239, 203, 133);
+    background-color: rgb(60, 65, 100);
+    font-family: 'Bad Script', cursive;
+  }
+
+  #serial a {
+    color: white;
+    margin-top: -20px;
+  }
+
+  #serial a:hover {
+    color: red;
+  }
+
+  .media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px dashed black;
+  }
+
+  img {
+    width: 100px;
+    height: 56.14px;
+    border: 4px solid grey;
+  }
+}
+/*for all other phones besides iPhone 5*/
+@media only screen and (min-width: 321px) and (max-width: 411px) {
+  html {
+    background-image: url("https://i.pinimg.com/736x/11/9c/71/119c71210bd0f2ed7326bbc732cdd49d--phone-wallpapers-harry-potter-iphone-wallpaper-wallpapers.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+  body, #static {
+    height: 50%;
+  }
+
+  header {
+    background-color: rgba(212, 175, 55, 0.7);
+    margin-top: 5%;
+    width: 98.75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    font-family: 'Bad Script', cursive;
+  }
+
+  header h1 {
+    margin-bottom: -30px;
+    font-size: 30px;
+  }
+
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: inherit;
+    margin-top: 8em;
+
+
+  }
+
+  .navBar button {
+    background-image: url("http://images5.fanpop.com/image/photos/30600000/hogwarts-envelope-hogwarts-30636574-300-218.jpg");
+    background-size: 120px 70px;
+    font-size: 50px;
+    font-weight: 700;
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family: 'Jim Nightshade', cursive;
+
+  }
+
+  #gryf {
+    height: 75px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(125, 9, 9);
+    color: rgb(254, 196, 0);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(254,196,0);
+
+  }
+
+  #huff {
+    height: 75px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(237, 224, 22);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(0,0,0);
+
+  }
+
+  #rave {
+    height: 75px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(1, 9, 144);
+    color: rgb(148, 107, 45);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(148,107,45);
+  }
+
+  #slit {
+    height: 75px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(13, 97, 22);
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(170,170,170);
+  }
+
+  #serial {
+    padding-right: 18px;
+    margin-left: -10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: rgb(239, 203, 133);
+    background-color: rgb(60, 65, 100);
+    font-family: 'Bad Script', cursive;
+  }
+
+  #serial a {
+    color: white;
+    margin-top: -20px;
+  }
+
+  #serial a:active {
+    color: red;
+  }
+
+  #serial div:active {
+    background-color: silver;
+  }
+
+  .media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px dashed black;
+  }
+
+  img {
+    width: 100px;
+    height: 56.14px;
+    border: 4px solid grey;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 749px){
+  html {
+    background-image: url("https://i.pinimg.com/originals/56/59/c0/5659c0f83b2523928d5235e6e5b5f423.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+  header {
+    background-color: rgba(212, 175, 55, 0.7);
+    margin-top: 5%;
+    width: 98.75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    font-family: 'Bad Script', cursive;
+  }
+
+  header h1 {
+    margin-bottom: -30px;
+    font-size: 35px;
+  }
+
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: inherit;
+    margin-top: 8em;
+
+
+  }
+
+  .navBar button {
+    background-image: url("http://images5.fanpop.com/image/photos/30600000/hogwarts-envelope-hogwarts-30636574-300-218.jpg");
+    background-size: 175px 100px;
+    font-size: 50px;
+    font-weight: 700;
+    width: 175px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+    font-family: 'Jim Nightshade', cursive;
+    position: absolute;
+
+  }
+
+  #gryf {
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(125, 9, 9);
+    color: rgb(254, 196, 0);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(254,196,0);
+
+  }
+
+  #huff {
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(237, 224, 22);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(0,0,0);
+
+  }
+
+  #rave {
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(1, 9, 144);
+    color: rgb(148, 107, 45);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(148,107,45);
+  }
+
+  #slit {
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(13, 97, 22);
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(170,170,170);
+  }
+
+  #serial {
+    padding-right: 18px;
+    margin-left: -10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: rgb(239, 203, 133);
+    background-color: rgb(60, 65, 100);
+    font-family: 'Bad Script', cursive;
+  }
+
+  #serial a {
+    color: white;
+    margin-top: -20px;
+  }
+
+  #serial a:active {
+    color: red;
+  }
+
+  #serial div:active {
+    background-color: silver;
+  }
+
+  .media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px dashed black;
+  }
+
+  img {
+    width: 100px;
+    height: 56.14px;
+    border: 4px solid grey;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+
+  html {
+    background-image: url("https://i.pinimg.com/originals/56/59/c0/5659c0f83b2523928d5235e6e5b5f423.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    display: block;
+    height: 992px;
+  }
+
+  header {
+    position: absolute;
+    background-color: rgba(60, 65, 100, 0.7);
+    margin-top: 5%;
+    width: 98.75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    font-family: 'Bad Script', cursive;
+    color: rgb(239, 203, 133);
+  }
+
+  header h1 {
+    margin-bottom: -22px;
+    font-size: 50px;
+  }
+
+  #static {
+    display: block;
+  }
+
+  .navBar {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 800px;
+
+  }
+
+  .navBar a {
+    background-color: rgb(60, 65, 100);
+    width: 70%;
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .navBar button {
+    background-image: url("http://images5.fanpop.com/image/photos/30600000/hogwarts-envelope-hogwarts-30636574-300-218.jpg");
+    background-size: 200px 125px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 200px;
+    width: 200px;
+    height: 125px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Jim Nightshade', cursive;
+
+  }
+
+  .navBar button:active {
+    background-image: url("http://www.graphics.com/sites/default/files/old/sections/focalpress/100percent/8.jpg");
+  }
+
+  #gryf {
+    margin: 10px;
+    background-color: rgb(125, 9, 9);
+    color: rgb(254, 196, 0);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 50px;
+    border: 5px solid rgb(254,196,0);
+  }
+
+  #huff {
+    margin: 10px;
+    background-color: rgb(237, 224, 22);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 50px;
+    border: 5px solid rgb(0,0,0);
+  }
+
+  #rave {
+    margin: 10px;
+    background-color: rgb(1, 9, 144);
+    color: rgb(148, 107, 45);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 50px;
+    border: 5px solid rgb(148,107,45);
+  }
+
+  #slit {
+    margin: 10px;
+    background-color: rgb(13, 97, 22);
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 50px;
+    border: 5px solid rgb(170,170,170);
+  }
+
+  #serial {
+    padding-right: 18px;
+    margin-left: -10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: rgb(239, 203, 133);
+    background-color: rgb(60, 65, 100);
+    font-family: 'Bad Script', cursive;
+  }
+
+  #serial a {
+    color: white;
+    margin-top: -20px;
+  }
+
+  #serial a:hover {
+    color: red;
+  }
+
+  #serial div:hover {
+    background-color: silver;
+  }
+
+  .media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px dashed black;
+  }
+
+  img {
+    width: 100px;
+    height: 56.14px;
+    border: 4px solid grey;
+  }
+
+}

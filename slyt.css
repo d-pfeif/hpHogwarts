@@ -1,0 +1,298 @@
+@media only screen and (max-width: 375px) {
+  html {
+    background-image: url('https://img08.deviantart.net/dd56/i/2009/075/7/f/slytherin_common_room_by_audofit.jpg');
+    background-repeat: no-repeat;
+    background-color: rgb(14,14,14);
+    background-size: cover;
+
+  }
+
+  header {
+    background-color: rgba(13, 97, 22, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    font-family: 'Jim Nightshade', cursive;
+  }
+
+  #crest {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 75px;
+  }
+
+
+  header a {
+    text-decoration: none;
+  }
+
+  h1 {
+    color: rgb(170,170,170);
+    font-size: 40px;
+    text-align: center;
+  }
+
+  header p {
+    color: rgb(170,170,170);
+    margin-top: -40px;
+    font-size: 14px;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .filler {
+    color: rgb(170,170,170);
+    width: 50%;
+    background-color: rgb(13, 97, 22);
+    border-radius: 5%;
+    padding: 10px;
+    width: auto;
+    font-family: 'Bad Script', cursive;
+    overflow: scroll;
+    overflow: wrap;
+    position: relative;
+  }
+  .filler::first-letter{
+    font-size: 50px;
+    border: 2px solid rgb(170,170,170);
+    padding: 5px;
+    margin: 5px;
+    float:left;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(13, 97, 22);
+    background-color: rgb(170,170,170);
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  div {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+
+  button {
+    width: 200px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 20px;
+    background-color: rgb(13, 97, 22);
+    color: rgb(170,170,170);
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 14px;
+  }
+  #godric {
+    width: 50%;
+    float: right;
+  }
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 960px) {
+  html {
+    background-image: url('https://vignette2.wikia.nocookie.net/harrypotter/images/c/c6/B1-background.jpg/revision/latest?cb=20111017204834');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(14,14,14);
+
+  }
+
+  header {
+    background-color: rgba(13, 97, 22,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    font-family: 'Jim Nightshade', cursive;
+  }
+
+  #crest {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 75px;
+  }
+
+
+  header a {
+    text-decoration: none;
+  }
+
+  h1 {
+    color: rgb(170,170,170);
+    font-size: 50px;
+    text-align: center;
+  }
+
+  header p {
+    color: rgb(170,170,170);
+    margin-top: -40px;
+    font-size: 16px;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .filler {
+    color: rgb(170,170,170);
+    width: 50%;
+    background-color: rgb(13, 97, 22);
+    border-radius: 5%;
+    padding: 10px;
+    width: auto;
+    font-family: 'Bad Script', cursive;
+    overflow: scroll;
+    overflow: wrap;
+    position: relative;
+  }
+  .filler::first-letter{
+    font-size: 50px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    float:left;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(13, 97, 22);
+    background-color: rgb(170,170,170);
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  div {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+  }
+
+  button {
+    width: 200px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 20px;
+    background-color: rgb(13, 97, 22);
+    color: rgb(170,170,170);
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+  #godric {
+    width: 50%;
+    float: right;
+  }
+
+}
+
+@media only screen and (min-width: 961px) {
+
+  html {
+    background-image: url('https://images.pottermore.com/bxd3o8b291gf/4b0NB6OQtGCmQqCMSKaigI/9b4af5ac5b5ee2d1af6febe97b4b8990/SlytherinCommonRoom.jpg?w=1200');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(14,14,14);
+    background-size: cover;
+  }
+
+  header {
+    background-color: rgba(13, 97, 22, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    font-family: 'Jim Nightshade', cursive;
+  }
+
+  header a {
+    text-decoration: none;
+  }
+
+  h1 {
+    color: rgb(170,170,170);
+    font-size: 50px;
+    text-align: center;
+  }
+
+  header p {
+    color: rgb(170,170,170);
+    margin-top: -40px;
+    font-size: 16px;
+    font-family: 'Bad Script', cursive;
+  }
+
+  div {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+  }
+
+  div a {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  div a:hover {
+    background-color: rgba(13, 97, 22, 0.5);
+    border-radius: 5%;
+  }
+
+  #crest {
+    width: 50%;
+  }
+
+  .filler {
+    color: rgb(170,170,170);
+    width: 50%;
+    background-color: rgb(13, 97, 22);
+    border-radius: 5%;
+    padding: 50px;
+    font-family: 'Bad Script', cursive;
+    overflow: scroll;
+    overflow: wrap;
+    position: relative;
+  }
+
+  .filler::first-letter{
+    font-size: 80px;
+    border: 2px solid rgb(170,170,170);
+    padding: 5px;
+    margin: 5px;
+    float:left;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(13,97,22);
+    background-color: rgb(170,170,170);
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  button {
+    width: 200px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 20px;
+    background-color: rgb(13, 97, 22);
+    color: rgb(170,170,170);
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 20px;
+  }
+
+  #godric {
+    width: 50%;
+    float: right;
+  }
+}
